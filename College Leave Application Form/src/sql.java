@@ -4,8 +4,8 @@ public class sql {
         try{
             Connection con= DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/application",
-                    "root",
-                    "root"
+                    "your_username", // username of your MySQL workbench
+                    "your_password" // password of your MySQL workbench
             );
             System.out.println("Connected Successfully");
         } catch (Exception e){
