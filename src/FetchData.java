@@ -1,7 +1,7 @@
 import java.sql.*;
 public class FetchData {
     public static void main(String[] args){
-        try(Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/application", "root", "root");
+        try(Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/application", "YOUR_USERNAME", "YOUR_PASSWORD"); // Your MySql username and password 
         Statement smt = con.createStatement();
         ResultSet rs = smt.executeQuery("SELECT * FROM form")
         ){
