@@ -10,8 +10,8 @@ public class DBConnection {
         String url =
                 "jdbc:mysql://localhost:3306/application"; // Your SQL file URl
 
-        String username = "root"; // Your SQLWorkbench username
-        String password = "root"; // Your SQLWorkbench password
+        String username = "YOUR_USERNAME"; // Your SQLWorkbench username
+        String password = "YOUR_PASSWORD"; // Your SQLWorkbench password
 
         return DriverManager.getConnection(
                 url, username, password
