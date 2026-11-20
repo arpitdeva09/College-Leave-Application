@@ -8,7 +8,7 @@ public class DBConnection {
             throws SQLException {
 
         String url =
-                "jdbc:mysql://localhost:3306/application"; // Your SQL file URl
+                "jdbc:mysql://localhost:3306/DATABASE_NAME"; // Your SQL file URl
 
         String username = "YOUR_USERNAME"; // Your SQLWorkbench username
         String password = "YOUR_PASSWORD"; // Your SQLWorkbench password
